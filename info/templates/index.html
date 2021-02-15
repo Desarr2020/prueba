@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+    <script src=" https://kit.fontawesome.com/9d518d32e7.js " crossorigin="anonymous"></script>
+   
+    <title>Prueba</title>
+</head>
+<body>
+    <nav class="menu">
+        <label class="logo">tutorialWEB</label>
+        <ul class="menu_items">
+            <li class="active"><a href="#">Inicio</a></li>
+            <li><a href="#">Acerca</a></li>
+            <li><a href="#">Institucional</a></li>
+            <li><a href="#">Academico</a></li>
+            <li><a href="#">Contactos</a></li>
+        </ul>
+        <span class="btn_menu">
+            <i class="fa fa-bars"></i>
+        </span>
+    </nav> 
+    <section id="contenido1">
+        <img src='{% static "img/ev.jpg" %}'>  
+    </section>  
+   
+ <footer>
+        Desarrollado por <a href="http://www.ds.com" target="_new">GRUPO6</a>
+</footer>    
+<SCript  type='text/javascript' src='{% static  "js/app.js"  %}' defer ></SCript>  
+</body>
+
+</html>
